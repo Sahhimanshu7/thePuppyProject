@@ -14,17 +14,39 @@
         </div>
         <div class="body">
             Body
-            <div class="contactUs">
-                <h1>Contact Us</h1>
-                <div class="contact-us-form">
-                    <form action="emailsender.php" method="post">
-                        <input type="text" id="name" name="name" required placeholder="Name">
-                    
-                        <input type="email" id="email" name="email" required placeholder="Email">
 
-                        <input type="phone" id="phone" name="phone" placeholder="Phone">
+            <!-- contact us form for the end of the page -->
+            <!-- Handled using node server -->
+            <div class="contact-us">
+                <h1 class="contact-us-header">Contact Us</h1>
+                <div class="contact-us-form">
+                    <form action="/api/contact-us" method="post">
+                        <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        required 
+                        placeholder="Name">
                     
-                        <textarea id="message" name="message" required placeholder="Message..."></textarea>
+                        <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required 
+                        placeholder="Email">
+
+                        <input 
+                        type="phone" 
+                        id="phone" 
+                        name="phone" 
+                        placeholder="Phone">
+                    
+                        <textarea 
+                        id="message" 
+                        name="message" 
+                        required 
+                        placeholder="Message...">
+                        </textarea>
                     
                         <input type="submit" value="Send">
                     </form>
