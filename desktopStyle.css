@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --white:#F6F4E8;
+    --lightGreen:#BACEC1;
+    --orange: #E59560;
+    --green: #1D3124;
+}
+
 .main{
     display: flex;
     flex-direction: column;
