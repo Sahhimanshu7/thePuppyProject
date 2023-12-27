@@ -18,44 +18,6 @@
     align-items: center;
 }
 
-form {
-    width: 400px;
-    margin: 0 auto;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-
-input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #3e8e41;
-}
-
 /* header styling */
 .top-header{
     display: flex;
@@ -63,6 +25,30 @@ input[type="submit"]:hover {
     background-color: var(--white);
     width: 100vw;
     padding: 15px;
+}
+
+.email a{
+    text-decoration: none;
+    color: var(--green);
+    width: 102%;
+
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone a{
+    text-decoration: none;
+    color: var(--green);
+
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.phone svg{
+    margin-right: 8px;
 }
 .bottom-header{
     display: flex;
@@ -106,6 +92,35 @@ input[type="submit"]:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Contact us styling */
+.contact-us{
+    padding: 80px 0px;
+    background-color: var(--white);
+    width: 97vw;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px grey;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-header{
+    color: var(--green);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+
+    margin-bottom: 20px;
+}
+
+.contact-us-form form{
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* footer styling */
@@ -221,11 +236,42 @@ input[type="submit"]:hover {
     margin-right: 8px;
 }
 
+.address-socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding-left: 35px;
+    height: 15vh;
+}
+
+.address{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.address a{
+    text-decoration: none;
+    color: black;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.socials a{
+    color: var(--orange);
+}
+
 .second-footer{
     width: 100vw;
     background-color: black;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     padding: 25px 0px;
     
