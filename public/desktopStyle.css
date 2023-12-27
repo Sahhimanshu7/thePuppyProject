@@ -141,6 +141,9 @@ input[type="submit"]:hover {
     flex-direction: column;
     padding: 0px 15px;
     justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+    min-width: 20vw;
 }
 
 .explore h1{
@@ -149,6 +152,74 @@ input[type="submit"]:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.explore-item{
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+.explore-item:hover{
+    font-size: 18px;
+    color: var(--orange);
+}
+.email-phone{
+    padding: 0px 35px;
+}
+
+.email-us{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.email-us p{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.email-us a{
+    text-decoration: none;
+    color: var(--green);
+    width: 102%;
+
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-number{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.text-number p{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.text-number a{
+    text-decoration: none;
+    color: var(--green);
+
+    font-size: 28px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+.text-number a svg{
+    margin-right: 8px;
+}
 
 .second-footer{
     width: 100vw;
@@ -156,8 +227,7 @@ input[type="submit"]:hover {
     color: white;
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
-
-    padding: 15px 0px;
+    padding: 25px 0px;
     
     display: flex;
     justify-content: center; 
