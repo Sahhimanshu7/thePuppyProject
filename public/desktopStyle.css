@@ -120,8 +120,9 @@
 .contact-us-form form{
     display: flex;
     flex-direction: column;
-
 }
+
+
 
 /* footer styling */
 .footer{
