@@ -63,7 +63,7 @@
     font-style: italic;
     font-weight: 800;
     /* font-family: Arial, Helvetica, sans-serif; */
-    color: var(--green);
+    color: black;
 }
 .menu{
     display: flex;
@@ -96,7 +96,8 @@
 
 /* Contact us styling */
 .contact-us{
-    padding: 80px 0px;
+    /* padding: 80px 0px; */
+    min-height: 70vh;
     background-color: var(--white);
     width: 97vw;
     margin: 10px;
@@ -114,15 +115,82 @@
     font-weight: 400;
     font-size: 32px;
 
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .contact-us-form form{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 850px;
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 20px;
 }
 
+.contact-us-form form input{
+    height: 48px;
+    margin: 10px;
 
+    width: 400px;
+    border: none;
+    border: 0.2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.contact-us-form form input:focus{
+    outline: none;
+    font-size: 24px;
+    height: 52px;
+}
+
+.contact-us-form form textarea{
+    height: 100px;
+    margin: 10px;
+
+    width: 57vw;
+    border: none;
+    border: 0.2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    justify-self: stretch;
+}
+
+.contact-us-form form textarea:focus{
+    outline: none;
+}
+
+.contact-us-form form .submit{
+    background-color: blue;
+    width: 130px;
+    color: white;
+
+    border-radius: 20px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.contact-us-form form .submit:hover{
+    background-color: rgb(66, 66, 248);
+    color: aliceblue;
+}
+
+.contact-us-form p{
+    margin-top: 15px;
+    font-size: 16px;
+    color: var(--green);
+    display: none;
+}
 
 /* footer styling */
 .footer{
